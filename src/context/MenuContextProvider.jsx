@@ -5,9 +5,9 @@ import { MenuContext } from "./MenuContext"
 export default function MenuContextProvider({ children }) {
 
     const [open, setOpen] = useState(false)
-
+    const menuInfo = { open, setOpen }
     return (
-        <MenuContext value={open, setOpen}>
+        <MenuContext value={menuInfo}>
             {children}
         </MenuContext>
     )
