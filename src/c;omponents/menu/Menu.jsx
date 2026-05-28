@@ -6,7 +6,7 @@ import Items from "./Items";
 
 export default function Menu({ children, className }) {
     return (
-        <div className={`${className} h-20 border-b flex items-center justify-between px-6`}>
+        <div className={`${className} relative h-20  flex items-center justify-between px-6 bg-white/70 backdrop-blur-sm shadow-sm`}>
             {children}
         </div>
     )

@@ -5,7 +5,7 @@ import Menu from "./menu/Menu";
 export default function Navbar() {
     return (
         <div>
-            <Menu className={`w-full`} logo={"Navbar"}>
+            <Menu className={`w-full`} >
                 <Menu.Logo>Logo</Menu.Logo>
                 <Menu.Items>
                     <Menu.Item href={'/about'}>Home</Menu.Item>
